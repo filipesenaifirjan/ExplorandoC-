@@ -7,6 +7,15 @@ namespace ExemploExplorando.Models
 {
     public class Pessoa
     {
+        public Pessoa()//construtor
+    {
+        }
+        public Pessoa(string nome, string sobrenome)//aqui é um construtor, mesmo nome da classe
+        {
+                       
+            Nome = nome;
+            Sobrenome= sobrenome; 
+        }
         private string _nome;//é o campo que vai armazenar o nome
         private int _idade;//private significa que está protegida e não pode ser acessada de fora(outra classe)
         public string Nome {//a diferença entre campo e propriedade é que a propriedade tem get e set
@@ -22,7 +31,7 @@ namespace ExemploExplorando.Models
 
               public string Sobrenome { get; set; }
     public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper();
-
+//aqui temos somente o get, somente leitura e não consegue atribuir valores 
 
         public int Idade { 
             get => _idade;
