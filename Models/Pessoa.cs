@@ -8,8 +8,8 @@ namespace ExemploExplorando.Models
     public class Pessoa
     {
         private string _nome;//é o campo que vai armazenar o nome
-        private int _idade;
-        public string Nome {
+        private int _idade;//private significa que está protegida e não pode ser acessada de fora(outra classe)
+        public string Nome {//a diferença entre campo e propriedade é que a propriedade tem get e set
              get => _nome.ToUpper();//quero que o nome venha em maiusculo e aqui estou usando o Body expression que é usado em variáveis simples(apenas uma linha)
             
              set{
@@ -19,6 +19,11 @@ namespace ExemploExplorando.Models
                 _nome = value;
             }
               }
+
+              public string Sobrenome { get; set; }
+    public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper();
+
+
         public int Idade { 
             get => _idade;
 
@@ -34,7 +39,7 @@ namespace ExemploExplorando.Models
             }
 
         public void Apresentar(){
-            Console.WriteLine($"Nome: {Nome}, Idade: {Idade}");
+            Console.WriteLine($"Nome: {NomeCompleto}, Idade: {Idade}");
         }
     }
 }//o get obtem o valor  e o set atribui esse valor
