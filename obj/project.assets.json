@@ -8,24 +8,32 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\FilipedeMattosAssunç\\.nuget\\packages\\": {}
+    "C:\\Users\\Serratec\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FilipedeMattosAssunç\\Desktop\\ExemploExplorando\\ExemploExplorando.csproj",
+      "projectUniqueName": "C:\\Users\\Serratec\\Desktop\\Explorando_C\\ExplorandoC-\\ExemploExplorando.csproj",
       "projectName": "ExemploExplorando",
-      "projectPath": "C:\\Users\\FilipedeMattosAssunç\\Desktop\\ExemploExplorando\\ExemploExplorando.csproj",
-      "packagesPath": "C:\\Users\\FilipedeMattosAssunç\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FilipedeMattosAssunç\\Desktop\\ExemploExplorando\\obj\\",
+      "projectPath": "C:\\Users\\Serratec\\Desktop\\Explorando_C\\ExplorandoC-\\ExemploExplorando.csproj",
+      "packagesPath": "C:\\Users\\Serratec\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Serratec\\Desktop\\Explorando_C\\ExplorandoC-\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\FilipedeMattosAssunç\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Serratec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
